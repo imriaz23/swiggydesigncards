@@ -5,10 +5,16 @@ import java.util.UUID;
 public class Player {
   private String name;
   private String id;
+  private HandCard handCard;
 
   public Player(String name) {
     this.name = name;
     this.id = UUID.randomUUID().toString();
+    this.handCard = new HandCard();
+  }
+
+  public HandCard getHandCard() {
+    return handCard;
   }
 
   public String getName() {

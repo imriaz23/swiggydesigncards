@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99ce5e01-e524-4a5e-8d41-1392348420be" name="Changes" comment="Create ShowDeckOfCardsMethods">
+    <list default="true" id="99ce5e01-e524-4a5e-8d41-1392348420be" name="Changes" comment="Created HandCard entity and added add and get hand card methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/swiggy/services/GameService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/swiggy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swiggy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/HandCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/HandCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680365697364</updated>
-      <workItem from="1680365698775" duration="4332000" />
+      <workItem from="1680365698775" duration="8630000" />
     </task>
     <task id="LOCAL-00001" summary="Designed entities of card Game">
       <created>1680367353501</created>
@@ -87,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680368868504</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created HandCard entity and added add and get hand card methods">
+      <created>1680373194402</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680373194402</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +107,7 @@
     <MESSAGE value="Designed entities of card Game" />
     <MESSAGE value="Created showCard methods &#10;Written getDeckCards methods to return unmodifiable list" />
     <MESSAGE value="Create ShowDeckOfCardsMethods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create ShowDeckOfCardsMethods" />
+    <MESSAGE value="Created HandCard entity and added add and get hand card methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created HandCard entity and added add and get hand card methods" />
   </component>
 </project>
