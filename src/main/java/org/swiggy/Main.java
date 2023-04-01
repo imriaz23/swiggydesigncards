@@ -10,13 +10,14 @@ public class Main {
     Main main = new Main();
     GameService gameService = new GameService();
     List<Player> players = new ArrayList<>();
-    players.add(new Player("riaz"));
-    players.add(new Player("quadri"));
-    players.add(new Player("virat"));
+    players.add(new Player("Riaz"));
+    players.add(new Player("Quadri"));
+    players.add(new Player("Virat"));
     players.add(new Player("Kohli"));
     int noOfPlayers = 4;
     gameService.initializeTheGame(noOfPlayers, players);
-    gameService.showPlayerCards();
+//    gameService.showPlayerCards();
+    gameService.startTheGame();
 
 
 //    Deck deck = new Deck();

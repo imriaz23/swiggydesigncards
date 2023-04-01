@@ -3,9 +3,9 @@ package org.swiggy.entities;
 import java.util.UUID;
 
 public class Player {
+  private final HandCard handCard;
   private String name;
   private String id;
-  private final HandCard handCard;
 
   public Player(String name) {
     this.name = name;

@@ -15,6 +15,7 @@ public class Deck {
         cardDeck.add(new Card(faceValue, suit));
       }
     }
+    shuffleTheDeck();
   }
 
   public List<Card> getCardDeck() {
