@@ -5,9 +5,9 @@ import java.util.List;
 import org.swiggy.entities.Player;
 import org.swiggy.services.GameService;
 
-public class Main {
+public class Driver {
   public static void main(String[] args) {
-    Main main = new Main();
+    Driver driver = new Driver();
     GameService gameService = new GameService();
     List<Player> players = new ArrayList<>();
     players.add(new Player("Riaz"));
@@ -16,7 +16,7 @@ public class Main {
     players.add(new Player("Kohli"));
     int noOfPlayers = 4;
     gameService.initializeTheGame(noOfPlayers, players);
-//    gameService.showPlayerCards();
+    gameService.showPlayerCards();
     gameService.startTheGame();
 
 

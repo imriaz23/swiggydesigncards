@@ -35,7 +35,7 @@ public class GameService {
       if (isDraw()) {
         System.out.println("*********** Draw ***********");
       } else if (isGameCompleted()) {
-        System.out.println(currentPlayer.getName() + " won the game.");
+        System.out.println("*********** " + currentPlayer.getName() + " won the game. ***********");
       } else {
         players.add(currentPlayer);
       }
