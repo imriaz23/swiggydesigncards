@@ -1,10 +1,11 @@
 package org.swiggy.entities;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Deck {
-  private final List<Card> cardDeck;
+  private List<Card> cardDeck;
 
   public Deck() {
     this.cardDeck = new ArrayList<>();
@@ -13,5 +14,13 @@ public class Deck {
         cardDeck.add(new Card(faceValue, suit));
       }
     }
+  }
+
+  public List<Card> getCardDeck() {
+    return Collections.unmodifiableList(cardDeck);
+  }
+
+  public void shuffleTheDeck(){
+
   }
 }

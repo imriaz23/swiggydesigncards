@@ -16,5 +16,8 @@ public class Card {
   public Suit getSuit() {
     return suit;
   }
+  public void showCard(){
+    System.out.println(suit.name() + " " + faceValue);
+  }
 
 }
