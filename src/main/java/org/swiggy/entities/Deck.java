@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Deck {
-  private List<Card> cardDeck;
+  private final List<Card> cardDeck;
 
   public Deck() {
     this.cardDeck = new ArrayList<>();
@@ -21,24 +21,27 @@ public class Deck {
     return Collections.unmodifiableList(cardDeck);
   }
 
-  public void shuffleTheDeck(){
+  public void shuffleTheDeck() {
     Random random = new Random();
-    for(int i = cardDeck.size() - 1; i >= 0; i--){
+    for (int i = cardDeck.size() - 1; i >= 0; i--) {
       int randomInt = random.nextInt(0, i + 1);
       Card tempCard = cardDeck.get(randomInt);
-      cardDeck.set(randomInt,cardDeck.get(i));
-      cardDeck.set(i,tempCard);
+      cardDeck.set(randomInt, cardDeck.get(i));
+      cardDeck.set(i, tempCard);
     }
   }
-  public void showDeckOfCards(){
-    for(Card card : cardDeck){
+
+  public void showDeckOfCards() {
+    for (Card card : cardDeck) {
       card.showCard();
     }
   }
-  public Card drawCard(){
-      return cardDeck.remove(cardDeck.size() - 1);
+
+  public Card drawCard() {
+    return cardDeck.remove(cardDeck.size() - 1);
   }
-  public boolean isEmpty(){
+
+  public boolean isEmpty() {
     return cardDeck.isEmpty();
   }
 }

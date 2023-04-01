@@ -12,8 +12,9 @@ public class HandCard {
   public void addCards(Card card) {
     this.cards.add(card);
   }
-  public void showHandCards(){
-    for(Card card : cards){
+
+  public void showHandCards() {
+    for (Card card : cards) {
       card.showCard();
     }
   }

@@ -1,13 +1,7 @@
 package org.swiggy;
 
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
-import org.swiggy.entities.Card;
-import org.swiggy.entities.Deck;
-import org.swiggy.entities.Game;
 import org.swiggy.entities.Player;
 import org.swiggy.services.GameService;
 
@@ -21,7 +15,7 @@ public class Main {
     players.add(new Player("virat"));
     players.add(new Player("Kohli"));
     int noOfPlayers = 4;
-    gameService.initializeTheGame(noOfPlayers,players);
+    gameService.initializeTheGame(noOfPlayers, players);
     gameService.showPlayerCards();
 
 

@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.Queue;
 
 public class Game {
-  private int initialNumberOfPlayers;
-  private Queue<Player> players;
-  private Deck deck;
-  private boolean isGameCompleted;
+  private final int initialNumberOfPlayers;
+  private final Queue<Player> players;
+  private final Deck deck;
+  private final boolean isGameCompleted;
 
   public Game(int initialNumberOfPlayers) {
     this.initialNumberOfPlayers = initialNumberOfPlayers;
@@ -16,10 +16,12 @@ public class Game {
     this.players = new LinkedList<>();
     this.deck = new Deck();
   }
-  public void addPlayer(List<Player> players){
+
+  public void addPlayer(List<Player> players) {
     this.players.addAll(players);
   }
-  public boolean isGameCompleted(){
+
+  public boolean isGameCompleted() {
     return isGameCompleted;
   }
 

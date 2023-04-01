@@ -5,7 +5,7 @@ import java.util.UUID;
 public class Player {
   private String name;
   private String id;
-  private HandCard handCard;
+  private final HandCard handCard;
 
   public Player(String name) {
     this.name = name;
