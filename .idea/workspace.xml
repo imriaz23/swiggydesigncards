@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99ce5e01-e524-4a5e-8d41-1392348420be" name="Changes" comment="Refactored the code.&#10;Completed assignment without bonus">
+    <list default="true" id="99ce5e01-e524-4a5e-8d41-1392348420be" name="Changes" comment="Added jar file">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/swiggy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swiggy/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -85,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680365697364</updated>
-      <workItem from="1680365698775" duration="19749000" />
+      <workItem from="1680365698775" duration="21195000" />
     </task>
     <task id="LOCAL-00001" summary="Designed entities of card Game">
       <created>1680367353501</created>
@@ -143,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680388049208</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added jar file">
+      <created>1680389069950</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680389069950</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +163,8 @@
     <MESSAGE value="Refactored" />
     <MESSAGE value="Implemented game service" />
     <MESSAGE value="Refactored the code.&#10;Completed assignment without bonus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored the code.&#10;Completed assignment without bonus" />
+    <MESSAGE value="Added jar file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added jar file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
