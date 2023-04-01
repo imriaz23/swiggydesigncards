@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99ce5e01-e524-4a5e-8d41-1392348420be" name="Changes" comment="Refactored">
+    <list default="true" id="99ce5e01-e524-4a5e-8d41-1392348420be" name="Changes" comment="Implemented game service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/swiggy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swiggy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/HandCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/HandCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swiggy/entities/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/swiggy/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/swiggy/services/GameService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680365697364</updated>
-      <workItem from="1680365698775" duration="17863000" />
+      <workItem from="1680365698775" duration="18839000" />
     </task>
     <task id="LOCAL-00001" summary="Designed entities of card Game">
       <created>1680367353501</created>
@@ -112,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680377308664</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implemented game service">
+      <created>1680387069440</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680387069440</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +128,8 @@
     <MESSAGE value="Created HandCard entity and added add and get hand card methods" />
     <MESSAGE value="Created game service&#10;added game initialize method" />
     <MESSAGE value="Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
+    <MESSAGE value="Implemented game service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented game service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

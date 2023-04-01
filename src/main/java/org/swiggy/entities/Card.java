@@ -18,7 +18,7 @@ public class Card {
   }
 
   public void showCard() {
-    System.out.println(faceValue + " " + suit.name());
+    System.out.print(faceValue + " " + suit.name() + "\n");
   }
 
 }

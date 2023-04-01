@@ -9,9 +9,9 @@ import org.swiggy.entities.Player;
 
 public class GameService {
   private final int initialHandCardSize = 5;
-  private Card discardCard;
   private final Deck deck;
   private final Queue<Player> players;
+  private Card discardCard;
   private int numOfPlayers;
   private boolean isGameCompleted;
   private boolean isDraw;
@@ -26,6 +26,11 @@ public class GameService {
   public void startTheGame() {
     while (!isGameCompleted() && !isDraw()) {
       Player currentPlayer = players.poll();
+      System.out.print("Discard plies top card is : ");
+      discardCard.showCard();
+      System.out.println("It is " + currentPlayer.getName() + "'s turn");
+      System.out.println("Player " + currentPlayer.getName() + " " + "has following cards at hand");
+      showPlayerCards(currentPlayer);
       playsTheGame(currentPlayer);
       if (isDraw()) {
         System.out.println("*********** Draw ***********");
@@ -37,6 +42,7 @@ public class GameService {
 
     }
   }
+
   private void playsTheGame(Player player) {
     if (deck.isEmpty() && !player.getHandCard().isEmpty()) {
       this.isDraw = true;
@@ -49,6 +55,8 @@ public class GameService {
     int index = getIndexOfMatchedCard(player);
     if (index != -1) {
       this.discardCard = player.getHandCard().removeCard(index);
+      System.out.print(player.getName() + " played ");
+      discardCard.showCard();
     } else {
       player.getHandCard().addCards(deck.drawCard());
     }
@@ -97,7 +105,6 @@ public class GameService {
   private boolean isGameCompleted() {
     return this.isGameCompleted;
   }
-
 
 
   private int getIndexOfMatchedCard(Player player) {
