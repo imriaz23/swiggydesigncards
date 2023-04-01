@@ -35,4 +35,10 @@ public class Deck {
       card.showCard();
     }
   }
+  public Card drawCard(){
+      return cardDeck.remove(cardDeck.size() - 1);
+  }
+  public boolean isEmpty(){
+    return cardDeck.isEmpty();
+  }
 }
